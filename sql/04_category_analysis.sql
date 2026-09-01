@@ -194,32 +194,50 @@ ORDER BY average_price DESC;
 ----------------------------------------------------------
 Pertanyaan Bisnis 7
 ----------------------------------------------------------
-Brand mana yang memiliki rata-rata rating tinggi tetapi
-jumlah penjualannya masih rendah?
+Brand mana yang memiliki rata-rata rating di atas
+rata-rata seluruh produk, tetapi jumlah penjualannya
+masih rendah?
 
 Tujuan:
 Mengidentifikasi brand yang memiliki kualitas produk
 yang baik berdasarkan penilaian pelanggan, namun belum
 mampu menghasilkan penjualan yang optimal.
 
-Hasil analisis ini dapat digunakan sebagai dasar untuk
-menentukan strategi promosi, meningkatkan eksposur
-produk, atau mengevaluasi efektivitas pemasaran.
+Analisis ini bertujuan untuk menemukan peluang bisnis,
+di mana brand dengan kualitas tinggi tetapi penjualan
+rendah dapat diprioritaskan dalam strategi promosi,
+peningkatan visibilitas produk, maupun evaluasi strategi
+pemasaran agar potensi penjualannya dapat meningkat.
+
+Kriteria Analisis:
+- Menghitung rata-rata rating setiap brand.
+- Membandingkan rata-rata rating brand dengan rata-rata
+  rating seluruh produk.
+- Menampilkan hanya brand yang memiliki rata-rata rating
+  di atas rata-rata keseluruhan.
+- Mengurutkan hasil berdasarkan jumlah unit terjual dari
+  yang paling rendah untuk mengidentifikasi brand yang
+  memiliki kualitas baik namun masih kurang diminati.
 ----------------------------------------------------------
 */
 
 -- ======================================================
--- Brand dengan Rating Tinggi tetapi Penjualan Rendah
+-- Brand dengan Rating di Atas Rata-rata tetapi
+-- Jumlah Penjualan Rendah
 -- ======================================================
 
 SELECT
     p.brand,
-    ROUND(AVG(p.avg_rating),2) AS average_rating,
+    ROUND(AVG(p.avg_rating), 2) AS average_rating,
     SUM(oi.quantity) AS total_unit_terjual
 FROM products p
 JOIN order_items oi
-ON p.product_id = oi.product_id
+    ON p.product_id = oi.product_id
 GROUP BY
     p.brand
-HAVING AVG(p.avg_rating) >= 4.5
+HAVING AVG(p.avg_rating) >
+(
+    SELECT AVG(avg_rating)
+    FROM products
+)
 ORDER BY total_unit_terjual ASC;
