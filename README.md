@@ -4,8 +4,10 @@
 
 Proyek ini menganalisis data penjualan dan inventaris e-commerce menggunakan SQL untuk mengidentifikasi kinerja penjualan, produk terlaris, inventaris yang kurang laku, dan memberikan rekomendasi bisnis untuk optimasi inventaris.
 ## 🔗 Live Interactive Dashboard
-👉 [Klik di sini untuk membuka Dashboard Interaktif di Looker Studio]([https://datastudio.google.com/reporting/6cd7b636-f09a-4b51-9e73-fe0df273b32a])
+👉 [Klik di sini untuk membuka Dashboard Interaktif di Looker Studio]https://datastudio.google.com/reporting/6cd7b636-f09a-4b51-9e73-fe0df273b32a
+
 ----
+
 ![E-Commerce Sales Dashboard](sql/07_Dasboard-preview.png)
 
 ## 🔑 Temuan Utama (Key Insights)
