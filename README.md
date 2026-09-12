@@ -26,29 +26,29 @@ Sebagai Analis Data di sebuah perusahaan e-commerce, saya bertugas menganalisis 
 
 ## 🔄 Proses Analisis Data (Data Analysis Process)
 
-Analisis dilakukan secara terstruktur mulai dari pemeriksaan data hingga penyusunan rekomendasi bisnis. Proses ini bertujuan memastikan data yang digunakan akurat, analisis menjawab permasalahan bisnis, dan hasilnya dapat digunakan sebagai dasar pengambilan keputusan.
+Analisis dilakukan secara terstruktur mulai dari pemeriksaan data hingga penyusunan rekomendasi bisnis untuk menghasilkan insight yang relevan dalam pengambilan keputusan.
 
-### 1. 📥 Pemahaman Data (Data Understanding)
-Memahami struktur dan hubungan antar dataset yang terdiri dari data produk, pesanan, dan detail transaksi. Tahap ini dilakukan untuk mengidentifikasi kolom penting yang diperlukan dalam analisis penjualan dan inventaris.
+1. **📥 Pemahaman Data (Data Understanding)**  
+   Memahami struktur, atribut, dan hubungan antar dataset produk, pesanan, dan detail transaksi.
 
-### 2. 🧹 Pembersihan & Validasi Data (Data Cleaning & Validation)
-Melakukan pemeriksaan terhadap kualitas data, termasuk nilai kosong (NULL), data duplikat, format data, serta konsistensi nilai antar tabel untuk memastikan data siap digunakan dalam proses analisis.
+2. **🧹 Pembersihan & Validasi Data (Data Cleaning & Validation)**  
+   Memeriksa nilai kosong, duplikasi, format data, dan konsistensi data sebelum proses analisis.
 
-### 3. 🔗 Pengolahan Data dengan SQL (Data Processing)
-Menggabungkan beberapa tabel menggunakan SQL JOIN serta melakukan agregasi dan perhitungan menggunakan fungsi seperti SUM, COUNT, AVG, GROUP BY, dan CASE WHEN untuk menghasilkan metrik yang dibutuhkan dalam analisis.
+3. **🔗 Pengolahan Data dengan SQL (Data Processing)**  
+   Menggabungkan tabel menggunakan JOIN serta melakukan agregasi menggunakan SUM, COUNT, AVG, GROUP BY, dan CASE WHEN.
 
-### 4. 🔍 Analisis Data (Data Analysis)
-Melakukan analisis terhadap beberapa aspek utama bisnis, meliputi performa penjualan, produk terlaris, kategori produk, pergerakan inventaris, performa merek, serta tren pendapatan berdasarkan periode waktu.
+4. **🔍 Analisis Data (Data Analysis)**  
+   Menganalisis performa penjualan, produk, kategori, inventaris, merek, dan tren pendapatan berdasarkan periode waktu.
 
-### 5. 📊 Perhitungan KPI (KPI Calculation)
-Menghitung indikator utama seperti total pendapatan, jumlah pesanan, jumlah unit terjual, rata-rata rating produk, serta metrik lainnya untuk memberikan gambaran menyeluruh mengenai performa bisnis.
+5. **📊 Perhitungan KPI (KPI Calculation)**  
+   Menghitung total pendapatan, jumlah pesanan, unit terjual, rata-rata rating produk, dan metrik utama lainnya.
 
-### 6. 📈 Visualisasi Data (Data Visualization)
-Membangun dashboard interaktif menggunakan Looker Studio untuk menyajikan KPI, tren pendapatan, performa kategori, produk terlaris, dan informasi bisnis lainnya agar hasil analisis lebih mudah dipahami.
+6. **📈 Visualisasi Data (Data Visualization)**  
+   Membangun dashboard interaktif di Looker Studio untuk menyajikan KPI, tren pendapatan, kategori, dan produk terlaris.
 
-### 7. 💡 Insight & Rekomendasi Bisnis (Business Insights & Recommendations)
-Menginterpretasikan hasil analisis untuk mengidentifikasi pola, peluang, dan potensi permasalahan bisnis. Temuan tersebut kemudian digunakan untuk menyusun rekomendasi terkait strategi penjualan, pengelolaan inventaris, dan optimalisasi produk.
-
+7. **💡 Insight & Rekomendasi Bisnis (Business Insights & Recommendations)**  
+   Menginterpretasikan hasil analisis menjadi insight dan rekomendasi untuk mendukung strategi penjualan dan pengelolaan inventaris.
+   
 ## 🔗 Live Interactive Dashboard
 👉 [Klik di sini untuk membuka Dashboard Interaktif di Looker Studio]https://datastudio.google.com/reporting/6cd7b636-f09a-4b51-9e73-fe0df273b32a
 
