@@ -1,6 +1,6 @@
 # 📊 Laporan Performa Penjualan & Inventaris E-Commerce (2022-2025)
 
-## 📌 Gambaran Proyek
+## 📌 Gambaran Proyek (Project Overview)
 
 Proyek ini menganalisis data penjualan dan inventaris e-commerce menggunakan SQL untuk mengidentifikasi kinerja penjualan, produk terlaris, inventaris yang kurang laku, dan memberikan rekomendasi bisnis untuk optimasi inventaris.
 ## 🔗 Live Interactive Dashboard
@@ -24,13 +24,13 @@ Proyek ini menganalisis data penjualan dan inventaris e-commerce menggunakan SQL
 2. **Strategi Bundling Promosi:** Buat paket penawaran khusus atau diskon untuk kategori produk yang penjualannya lambat (*slow-moving*) seperti *Kaos* atau *Kemeja* agar perputaran inventaris lebih cepat.
 3. **Pertahankan Kualitas:** Menjaga standar produk mengingat *rating* pelanggan sudah tergolong tinggi di angka 4,26.
 
-## 🎯 Masalah Bisnis
+## 🎯 Masalah Bisnis (Business Problem)
 
 Sebagai Analis Data di sebuah perusahaan e-commerce, saya bertugas menganalisis data penjualan dan inventaris untuk mengidentifikasi produk terlaris, produk yang kurang laku, dan memberikan rekomendasi untuk manajemen inventaris yang lebih baik.
 
 ---
 
-## 🎯 Tujuan Proyek
+## 🎯 Tujuan Proyek (Project Insight)
 
 - Menganalisis kinerja penjualan
 - Mengidentifikasi produk terlaris
@@ -49,7 +49,7 @@ Sebagai Analis Data di sebuah perusahaan e-commerce, saya bertugas menganalisis 
 
 ---
 
-## 📂 Dataset
+## 📂 Kumpulan Data (Dataset)
 
 | Tabel | Deskripsi |
 |--------|-------------|
@@ -59,7 +59,7 @@ Sebagai Analis Data di sebuah perusahaan e-commerce, saya bertugas menganalisis 
 
 ---
 
-## 📈 Status Proyek
+## 📈 Status Proyek (Project Status)
 
 🚧 Sedang Berlangsung
 
