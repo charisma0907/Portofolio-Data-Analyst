@@ -3,7 +3,7 @@
 ## 📌 Project Overview
 
 This project analyzes e-commerce sales and inventory data using SQL to identify sales performance, best-selling products, slow-moving inventory, and provide business recommendations for inventory optimization.
-![E-Commerce Sales Dashboard](sql/07_Dashboard-preview.png)
+![E-Commerce Sales Dashboard](sql/07_Dasboard-preview.png)
 ## 🎯 Business Problem
 
 As a Data Analyst at an e-commerce company, I was tasked with analyzing sales and inventory data to identify top-selling products, slow-moving products, and provide recommendations for better inventory management.
