@@ -1,22 +1,22 @@
-# 📊 E-Commerce Sales & Inventory Analysis Dengan SQL
+# 📊 Laporan Performa Penjualan & Inventaris E-Commerce (2022-2025)
 
-## 📌 Project Overview
+## 📌 Gambaran Proyek
 
 Proyek ini menganalisis data penjualan dan inventaris e-commerce menggunakan SQL untuk mengidentifikasi kinerja penjualan, produk terlaris, inventaris yang kurang laku, dan memberikan rekomendasi bisnis untuk optimasi inventaris.
 ![E-Commerce Sales Dashboard](sql/07_Dasboard-preview.png)
-## 🎯 Business Problem
+## 🎯 Masalah Bisnis
 
-As a Data Analyst at an e-commerce company, I was tasked with analyzing sales and inventory data to identify top-selling products, slow-moving products, and provide recommendations for better inventory management.
+Sebagai Analis Data di sebuah perusahaan e-commerce, saya bertugas menganalisis data penjualan dan inventaris untuk mengidentifikasi produk terlaris, produk yang kurang laku, dan memberikan rekomendasi untuk manajemen inventaris yang lebih baik.
 
 ---
 
-## 🎯 Project Objectives
+## 🎯 Tujuan Proyek
 
-- Analyze sales performance
-- Identify best-selling products
-- Detect slow-moving inventory
-- Analyze inventory levels
-- Provide business recommendations
+- Menganalisis kinerja penjualan
+- Mengidentifikasi produk terlaris
+- Mendeteksi persediaan yang lambat terjual
+- Menganalisis tingkat persediaan
+- Berikan rekomendasi bisnis.
 
 ---
 
@@ -25,22 +25,22 @@ As a Data Analyst at an e-commerce company, I was tasked with analyzing sales an
 - SQLite
 - SQL
 - Excel
-- Power BI
+- Looker Studio
 
 ---
 
 ## 📂 Dataset
 
-| Table | Description |
+| Tabel | Deskripsi |
 |--------|-------------|
-| products | Product master data |
-| orders | Customer orders |
-| order_items | Order details |
+| Produk | Data master produk|
+| Pesanan | Pesanan pelanggan |
+| Barang pesanan | Detail barang |
 
 ---
 
-## 📈 Project Status
+## 📈 Status Proyek
 
-🚧 In Progress
+🚧 Sedang Berlangsung
 
-This repository is currently being developed. SQL analysis, dashboards, and business insights will be added progressively.
+Repositori ini sedang dalam pengembangan. Analisis SQL, dasbor, dan wawasan bisnis akan ditambahkan secara bertahap.
