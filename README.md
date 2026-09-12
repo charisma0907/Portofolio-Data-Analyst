@@ -52,6 +52,6 @@ Sebagai Analis Data di sebuah perusahaan e-commerce, saya bertugas menganalisis 
 
 | Tabel | Deskripsi |
 |--------|-------------|
-| Produk | Data master produk|
-| Pesanan | Pesanan pelanggan |
-| Barang pesanan | Detail barang |
+| Produk (Products) | Data master produk|
+| Pesanan (Orders) | Pesanan pelanggan |
+| Barang pesanan (Order Items) | Detail barang |
