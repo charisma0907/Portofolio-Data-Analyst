@@ -1,4 +1,4 @@
-# 📊 E-Commerce Sales & Inventory Analysis Using SQL
+# 📊 E-Commerce Sales & Inventory Analysis Dengan SQL
 
 ## 📌 Project Overview
 
