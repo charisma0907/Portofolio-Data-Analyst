@@ -2,7 +2,7 @@
 
 ## 📌 Project Overview
 
-This project analyzes e-commerce sales and inventory data using SQL to identify sales performance, best-selling products, slow-moving inventory, and provide business recommendations for inventory optimization.
+Proyek ini menganalisis data penjualan dan inventaris e-commerce menggunakan SQL untuk mengidentifikasi kinerja penjualan, produk terlaris, inventaris yang kurang laku, dan memberikan rekomendasi bisnis untuk optimasi inventaris.
 ![E-Commerce Sales Dashboard](sql/07_Dasboard-preview.png)
 ## 🎯 Business Problem
 
