@@ -55,11 +55,3 @@ Sebagai Analis Data di sebuah perusahaan e-commerce, saya bertugas menganalisis 
 | Produk | Data master produk|
 | Pesanan | Pesanan pelanggan |
 | Barang pesanan | Detail barang |
-
----
-
-## 📈 Status Proyek (Project Status)
-
-🚧 Sedang Berlangsung
-
-Repositori ini sedang dalam pengembangan. Analisis SQL, dasbor, dan wawasan bisnis akan ditambahkan secara bertahap.
