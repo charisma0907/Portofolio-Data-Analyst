@@ -30,7 +30,7 @@ Sebagai Analis Data di sebuah perusahaan e-commerce, saya bertugas menganalisis 
 
 ---
 
-## 🎯 Tujuan Proyek (Project Insight)
+## 🎯 Tujuan Proyek (Project Objectives)
 
 - Menganalisis kinerja penjualan
 - Mengidentifikasi produk terlaris
@@ -42,10 +42,9 @@ Sebagai Analis Data di sebuah perusahaan e-commerce, saya bertugas menganalisis 
 
 ## 🛠 Alat yang Digunakan (Tools)
 
-- SQLite
-- SQL
-- Excel
-- Looker Studio
+- **SQL / SQLite:** Untuk pembersihan data, ekstraksi, dan analisis kueri.
+- **Microsoft Excel:** Untuk olah data awal dan validasi data.
+- **Looker Studio:** Untuk pembuatan *dashboard* interaktif dan visualisasi data.
 
 ---
 
