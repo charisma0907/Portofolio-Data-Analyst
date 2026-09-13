@@ -54,7 +54,7 @@ Analisis dilakukan secara terstruktur mulai dari pemeriksaan data hingga penyusu
 
 ----
 
-![E-Commerce Sales Dashboard](sql/07_Dasboard-preview.png)
+![E-Commerce Sales Dashboard](Images)
 
 ## 🔑 Temuan Utama (Key Insights)
 * **Total Pendapatan:** Mencapai **Rp1.531.780.000** dengan total pesanan sebanyak **3.000** transaksi dan **6.440** unit barang terjual.
